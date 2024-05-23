@@ -1,0 +1,63 @@
+body{
+    background-image: linear-gradient(to right ,blue,green,black);
+}
+button{
+    background-color: blueviolet;
+    border: solid 0.5px black;
+    padding: 8px 30px
+}
+button:hover{
+    color: aliceblue;
+    background-color: pink;
+    padding: 9px 36px;
+}
+button:active {
+    background-color: #3e8e41;
+
+    transform: translateY(4px);
+}
+
+.box1{
+    position: absolute;
+    padding: 10px 450px;
+    background-color: black;
+    top: 0px;
+    left: 100px;
+}
+.menuBut{
+    position: relative;
+    left: -350px;
+    
+}
+.box2{
+    position: relative;
+    top: 50px;
+    color: rgb(27, 255, 171);
+    text-align: center;
+    font-size: 30px;
+    
+}
+@media screen and (max-width: 900px) {
+    .columnL {
+      flex: 40%;
+      position: relative;
+      max-width: 40%;
+      bottom: 0%;
+      left: 0%;
+      width: 10%;
+      height: 40%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .columnA {
+      flex: 50%;
+      position: relative;
+      max-width: 25%;
+      top: 0%;
+      left: 30%;
+      width: 40%;
+      height: 40%;
+      font-size: 20px;
+      text-align: center;
+    }
+  }

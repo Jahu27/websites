@@ -1,0 +1,49 @@
+body{
+    background-image: url("https://www.docs.signify.com/hue/vr/meethue/Assets/SampleAssets/PClightstrip/PC_1920.jpg") ;
+}
+button{
+    background-color:blue;
+    border:solid 1px black;
+    padding: 7px 20px;
+    
+}
+button:hover{
+    padding: 9px 30px;
+    background-color: aqua;
+    color: white;
+
+
+}
+img:hover{
+    width: 430px;
+    height: 250px;
+}
+.pcGmg{
+    position: relative;
+    
+    color: rgb(45, 218, 45);
+    font-size: 23px;
+    
+    text-align: center;
+}
+#hist{
+    font-size: 30px;
+    color: red;
+}
+#history{
+    inline-size: 900px;
+    text-align: center;
+    position: relative;
+    
+    left: 250px;
+    overflow-y: scroll ;
+    height: 500px;
+    width: 1000px;
+
+
+}
+button:active {
+    background-color: #3e8e41;
+
+    transform: translateY(4px);
+}

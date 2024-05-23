@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Clicker</title>
+    <link rel="stylesheet" href="clickerStyle.css">
+    
+    <div class = "menu">
+      <div class = "buttons"> 
+        <button onclick = "back()">Powrot </button>
+        <button onclick = "changeTheme()"> Primary theme</button>
+         <select id = "Themes" onchange="otherTheme(this.value)"> 
+            <option > Background Theme </option>
+            <option value="first"> First Theme </option>
+            <option value="second"> second Theme </option>
+            <option value="third"> Third Theme </option>
+        
+         </select>
+      </div>
+        
+       
+    </div>
+    
+</head>
+<br>
+<body>
+    <script src = "clickerScipt.js"></script>
+    
+      <div class = "clicker ">
+        <div class= "stat column"> 
+            <h2> Stats </h2>
+             <p id = "St"> </P>
+             <a id = "mLvl"> </a>
+             <p id = "aM"> </p>
+             </p>
+        </div>
+
+         <div class="game columnA">
+          <p id = "Pointamount"> </p>
+          <button id ="mineButton" onclick="mine()"  > Mine</button>
+
+
+        </div>      
+        <div class = "up columnL"> 
+            <h2> Upgrades </h2> 
+            <a id="l"> Mining Level</a>
+            <p id="costs"> </p>
+            <button id = "bMUp" onclick="mineupg()"> Increase </button>
+            <p >action fortune </p>
+            <p id ="aCost"> </p>
+            <button onclick=" bAutoMiner(); actionFortune()"> Small upgrade </button>
+            
+    
+         </div>
+    
+
+     
+      
+      </div>
+
+    
+</body>
+</html>

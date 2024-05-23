@@ -1,0 +1,143 @@
+body{
+    background-image: linear-gradient(to left , purple,  blue, aqua);
+
+    text-align: center;
+    align-items: center;
+}
+.menu{
+    background-color: rgba(255, 27, 190, 0.397);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    width: 40cm;
+    
+   
+
+    
+}
+.buttons{
+    position: relative;
+    right: 460px;
+}
+.up{
+    
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    width: 200px;
+    height: 500px;
+    border: 3px solid black;
+    color: blue;
+}
+.stat{
+  
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    width: 200px;
+    height: 500px;
+    border: 3px solid ;
+}
+
+select {
+     padding: 13px 38px;
+     border: none;
+     background-color: rgb(8, 229, 67);
+ }
+ option{
+    padding: 10px, 12px;
+ }
+   
+
+
+button{
+    background-color:rgb(84, 242, 11); 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: rgb(3, 127, 36);
+}
+#St{
+    color: aqua;
+    font-size: 15px
+}
+
+#mineButton{
+
+   
+
+    background-color:cyan; 
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+#mineButton:hover{
+
+    background-color: aquamarine;
+}
+#Pointamount{
+    font-size: 40px;
+}
+
+
+
+@media screen and (max-width: 900px) {
+    .column {
+      flex: 50%;
+      position: absolute;
+      max-width: 50%;
+      top: 55%;
+      right: 0%;
+      width: 40%;
+      height:30%;
+     
+    }
+    }
+  
+  
+
+@media screen and (max-width: 900px) {
+    .columnL {
+      flex: 50%;
+      position: relative;
+      max-width: 50%;
+      bottom: 0%;
+      left: 0%;
+      width: 40%;
+      height: 70%;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .columnA {
+      flex: 50%;
+      position: relative;
+      max-width: 50%;
+      top: 0%;
+      left: 30%;
+      width: 40%;
+      height: 40%;
+    }
+  }
+  button:active {
+    background-color: #3e8e41;
+
+    transform: translateY(4px);
+}
+

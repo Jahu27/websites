@@ -1,0 +1,43 @@
+body{
+    background-image: url('https://wallpapers.com/images/hd/xbox-series-x-console-over-sea-4wda8gr8al1ic4cj.jpg');
+}
+button{
+    background-color: green;
+    padding: 7px 20px;
+    border: solid 1px black;
+}
+button:hover{
+    background-color: greenyellow;
+    padding: 9px 26px;
+}
+button:active {
+    background-color: #3e8e41;
+
+    transform: translateY(4px);
+}
+
+
+#tile{
+    
+    font-size: 40px;
+    text-align: center;
+    color: rgb(26, 174, 26);
+
+}
+img:hover{
+    width: 560px;
+    height: 380px;
+    border: solid 1px yellow;
+}
+.con{
+    position: relative;
+    left: 470px;
+}
+.about{
+    background-color: rgb(0, 143, 33);
+    position: relative;
+    inline-size: 900px;
+    font-size: 20px;
+    color: #efeaea;
+    right: 190px;
+}
