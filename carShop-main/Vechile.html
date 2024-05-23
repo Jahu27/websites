@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="accept.css">
+</head>
+<body>
+    <script src="Scipt.js"></script>
+    <div>
+     <div class = "dataOne">
+        <p id ="typA"> </p>
+        <p id ="mocA"> </p>
+        <p id ="pojA"> </p>
+        <p id ="cenA"> </p>
+
+     </div>
+     <div class="upgrade">
+        <label>Gotówka</label><br>
+        <input id = "ca"type="checkbox" onchange="check('cas')"><br>
+        <label>leasing</label><br>
+        <input id = "le"type="checkbox" onchange="check('le')"><br>
+
+        <label> Ubezpieczenie +1000zł:</label>
+        <input id="ub"type="checkbox" onchange="changeer('ub')"><br>
+        <label> Dodatkowe akcesoria +700zł:</label>
+        <input id="akc"type="checkbox" onchange="changeer('akc')"><br>
+        <label> Zmień kolor (Za darmo):</label><br>
+        <input  type="color">
+
+
+
+       
+
+
+     </div>
+
+    <div class ="dane">
+        <label>Imie i nazwisko</label><br>
+        <input type = "text"><br>
+        <label>Miejsowość</label><br>
+        <input type = "text"><br>
+        <label>Numer telefonu</label><br>
+        <input type="text" ><br>
+        <button onclick="accept()">Pozdro</button>
+
+
+
+    </div>
+    </div>
+
+    
+</body>
+</html>

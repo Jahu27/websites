@@ -1,0 +1,91 @@
+body{
+    background-color: aqua;
+}
+img{
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+.mBar{
+    position: relative;
+    top: 0px;
+    left:50px;
+    margin: 10px 20px 60px;
+}
+button{
+    border: none;
+    padding: 10px 30px;
+    background-color: blue;
+}
+button:hover{
+    background-color: rgb(43, 125, 226);
+}
+button:active {
+    background-color: #05ffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+.audi{
+    border: 1px solid black;
+    position: relative;
+    left: 30%;
+    width: 600px;
+    height: 300px;
+    display: block;
+    background-color: rgb(178, 142, 255);
+    margin: 30px;
+
+}
+.dsc{
+    position: relative;
+    left: 60%;
+    inline-size: 350px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Renault{
+    border: 1px solid black;
+    position: relative;
+    left: 30%;
+    width: 600px;
+    height: 300px;
+    display: block;
+    background-color: rgb(17, 92, 43);
+    margin: 30px;
+    
+}
+.Nissan{
+    border: 1px solid black;
+    position: relative;
+    left: 30%;
+    width: 600px;
+    height: 300px;
+    display: block;
+    background-color: rgb(46, 4, 171);
+    margin: 30px;
+
+}
+.Merc{
+    border: 1px solid black;
+    position: relative;
+    left: 30%;
+    width: 600px;
+    height: 300px;
+    display: block;
+    background-color: rgb(255, 42, 0);
+    margin: 30px;
+
+}
+select{
+    border: 1px dotted black;
+    padding: 5px 30px;
+    background-color: blue;
+}
+
