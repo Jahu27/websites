@@ -1,0 +1,11 @@
+PRE
+- node.js
+- Windows z WSL
+
+Technologia
+- React + NextJS
+
+Zadanie:
+- aplikacja do przypisania podręczników (autor, tytuł, rok wydania, wydawinictwo, rok wydania i nr dopuszczenia) dla klas pierwszych. Proszę obsłużyć 3 przedmioty: polski, matme i informatykę oraz zapisać po 2 pozycję do każdego z nich. Minimalnie może być obiekt, który będzie miał w JSON zapisanie dane, ale lepiej jakby to była SQL Lite. 
+- aplikacja ma umożliwiać przyporządkowanie danej pozycji pod przedmiot. 
+- wygenerowanie PDF z tymi przypisaniami... (?????)
