@@ -19,6 +19,7 @@
     </form>
 
     <button type="button" onclick="createShape();">accept</button>
+    <button type="button" onclick="addSize();">Add +20size</button>
 </head>
 <body>
 </body>
@@ -51,7 +52,7 @@ function createShape() {
             sh.setAttribute("x", 250 - amount / 2);
             sh.setAttribute("y", 250 - amount / 2);
             sh.setAttribute("height", amount);
-            sh.setAttribute("width", amount);
+            sh.setAttribute("width", amount/2);
             break;
         case "circle":
             sh = document.createElementNS("http://www.w3.org/2000/svg", "circle");
@@ -63,4 +64,10 @@ function createShape() {
     sh.setAttribute("fill", color);
     svg.appendChild(sh);
 }
+
+function addSize(){
+    amount = parseInt(amount) + parseInt(20);
+    
+}
+
 </script>
