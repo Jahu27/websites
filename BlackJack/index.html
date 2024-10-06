@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="UI.css">
+</head>
+<body>
+    <div id="setGame">
+        
+        
+        <button id ="play" onclick="start()">BET</button>
+        <p id="betValue">you set: 0 coins</p>
+        
+        <div id="bets">
+            <button value="25" >25</button>
+            <button value="50">50</button>
+            <button value="100">100</button>
+            <button value="200">200</button>
+        </div>
+       
+    </div>
+    <div id="table" >
+        <div id="card">
+            <svg id ="cCard" width="100%" height="80%">
+
+            </svg>
+
+            <p id="crAmount"></p>
+
+        </div>
+        <div id="plCard">
+            <div id="options">
+
+                <button id="hit"> HIT</button> 
+                <button id = "stand">STAND</button>
+    
+            </div>
+            <p id="playerAmount"> </p>
+        </div>
+       
+         
+    </div>
+    
+
+
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
