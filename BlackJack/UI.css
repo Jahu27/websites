@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(45deg,green,lime,green);
+    background-image: linear-gradient(30deg,green,rgb(35, 133, 35),lime,rgb(35, 133, 35),green);
 }
 
 
@@ -8,22 +8,22 @@ body{
 #table{
     width: 600px;
     height: 600px;
-    background-color: white;
+    
     position: absolute;
     left: 34%;
     top: 50px;
     display: none;
 }
 #card{
-    background-color: red;
+    
    
     position: absolute;
     width: 100%;
     height: 40%;
     top:0%;
 }
-#plCard{
-    background-color: greenyellow;
+#player{
+   
     align-items: center;
     position: absolute;
     bottom: 0%;
@@ -38,7 +38,7 @@ body{
 #setGame{
     width: 500px;
     height: 500px;
-    background-image: linear-gradient(50deg,green,rgb(49, 255, 84),green);
+    background-image: linear-gradient(50deg,green,rgb(255, 8, 8),green);
     position: absolute;
     left: 34%;
     top: 50px;
@@ -51,7 +51,7 @@ body{
     
     height: 40px;
     width: 130px;
-    left: 35%;
+    left: 38%;
     border-radius: 30px;
     top: 30%;
 
@@ -60,9 +60,12 @@ body{
     position: absolute;
     font-size: 19px;
  
-    left: 35%;
+    left: 40%;
  
     top: 37%;
+    color: rgb(94, 3, 3);
+    font-size: 20px;
+    font-weight: bolder;
 }
 #bets{
 
@@ -70,12 +73,81 @@ position: absolute;
 
 width: 100%;
 height: 200px;
-left: 25%;
+left: 26%;
 bottom: 10%;
+
 }
 #bets button{
     margin-left: 10px;
     width: 50px ;
     height: 50px;
     border-radius: 70%;
+    
 }
+
+
+#playerCoins{
+    color: rgb(94, 3, 3);
+    font-size: 20px;
+    font-weight: bolder;
+}
+#noBet{
+    color: rgb(27, 1, 99);
+    position: absolute;
+
+    font-size: 20px;
+    font-weight: bolder;
+    left: 35%;
+    top: 10%;
+}
+#resetBet{
+    position: absolute;
+    left: 30%;
+    bottom: 25%;
+    margin-left: 10px;
+    width: 200px ;
+    height: 50px;
+    border-radius: 40%;
+
+}
+#bets button:nth-child(1){
+    background-image: linear-gradient(30deg,lime,green);
+}
+#bets button:nth-child(2){
+    background-image: linear-gradient(30deg,rgb(6, 186, 226),rgb(78, 3, 229));
+}
+#bets button:nth-child(3){
+    background-image: linear-gradient(30deg,rgb(12, 27, 17),rgb(230, 248, 230));
+}
+#bets button:nth-child(4){
+    background-image: linear-gradient(30deg,lime,rgb(0, 179, 45));
+}
+#options{
+    position: absolute;
+    bottom: 30%;
+    left:25%;
+}
+
+#options button {
+    margin-left: 10px;
+    width: 100px ;
+    height: 50px;
+    border-radius: 30%;
+    
+
+
+}
+#playerAmount{
+    color: rgb(94, 3, 3);
+    font-size: 20px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 10%;
+    left:30%;
+}
+#crAmount{
+    position: absolute;
+    bottom: 8%;
+    font-size: 20px;
+}
+
