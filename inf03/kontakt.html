@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firma IT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/pics/logo.png">
+    
+</head>
+<body>
+    <div id="box">
+        <div id="gora">
+            <section id="pic">
+                <img src="pics/logo.png" alt="Firma IT">
+            </section>
+            <section class="items">
+                <a href = "index.html"> Strona Główna</a>
+                <a href = "usługi.html"> Usługi</a>
+                <a href = "kontakt.html"> kontakt</a>
+            </section>
+
+            
+
+        </div>
+        <section id="baner">       
+                <img src="pics/animacja.gif" alt="Usługi informatyczne"> 
+        </section>
+        <section class="glowny">
+            <h2> KONTAKT</h2>
+           <table>
+            <tr>
+                <td>
+                    imie
+                </td>
+                <td>
+                    <input id="name" type="text">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    nazwisko
+                </td>
+                <td>
+                    <input id = "surname"type="text">
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    mail
+                </td>
+                <td>
+                    <input id="mail" type="email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zgłoszenie
+                </td>
+                <td>
+                    <textarea id ="report" cols="40" rows="10">
+
+                    </textarea>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <input id = "agreement"type="checkbox"> Zapoznałem się z regulaminem
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                   
+                </td>
+                <td>
+                    <button onclick="reset()"> Resetuj </button>
+                    <button onclick="send()"> Prześlij </button>
+                </td>
+                
+            </tr>
+           </table>
+           <hr>
+           <p id="info"></p>
+
+        </section>
+        
+        <section id ="stopka">
+            <p>Autor strony: <strong>11</strong> </p>
+        </section>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
