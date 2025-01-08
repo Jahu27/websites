@@ -1,3 +1,10 @@
-import { listUsers} from "./base";
+import { listUsers} from "./base.js";
 
-listUsers();
+
+function readJSON(){
+    let jsonDate;
+  
+
+    return jsonDate;
+}
+console.log(readJSON())

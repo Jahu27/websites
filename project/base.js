@@ -1,4 +1,4 @@
-let databse = [
+let database = [
   {
     login: "ADMIN" ,
     password: "AD141",
@@ -19,9 +19,9 @@ function removeUser(){
 
 }
 
-export default function listUsers(){
-  for(var i =0; i < databse.length;i++){
-      console.log(databse[i].login + "\n" + databse[i].password + "\n" + databse[i].UUID + "\n=============" );
+export function listUsers(){
+  for(var i =0; i < database.length;i++){
+      console.log(database[i].login + "\n" + database[i].password + "\n" + database[i].UUID + "\n=============" );
   }
 
 }
