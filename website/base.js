@@ -21,7 +21,7 @@ function getUserByLogin(arrayData = [],loginName){
     }
 }
 function logPlayer(arrayData =[],loginName,Password){
-  
+  console.log(arrayData.length)
     for(let i =0; i< arrayData.length; i++){
       if(arrayData[i].login == loginName && arrayData[i].password == Password){
           
@@ -35,11 +35,14 @@ function logPlayer(arrayData =[],loginName,Password){
 }
 
 
-async function readJSON() {
+async function readUserJSON() {
+  
   try{
+    let Base;
       const response = await fetch("./userBase.Json");
       const data = await response.json();
-      database = data;
+      Base = data;
+      return Base;
   } catch(error){
       console.error('Error in getting data ',error);
   }
@@ -49,26 +52,23 @@ async function readJSON() {
 
 
 
-async function base() {
-  await readJSON();
 
-  
-  
-}
-async function base(login) {
-  await readJSON();
- 
-  
-  
-}
-async function base(login,password) {
-  await readJSON();
-  let correct = logPlayer(database,login,password)
-  
-  
+
+async function readKeysJSON(Base) {
+    try{
+        let Base;
+        const response = await fetch("./keysBase.Json");
+        const data = await response.json();
+        Base= data;
+        return Base;
+    } catch(error){
+        console.error('Error in getting data ',error);
+    }
+          
 }
 
 
-export {base,logPlayer};
+
+export {logPlayer,readUserJSON,readKeysJSON,getUserByLogin};
 
 
