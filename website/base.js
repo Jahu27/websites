@@ -54,7 +54,7 @@ async function readUserJSON() {
 
 
 
-async function readKeysJSON(Base) {
+async function readKeysJSON() {
     try{
         let Base;
         const response = await fetch("./keysBase.Json");
